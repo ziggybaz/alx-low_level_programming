@@ -9,12 +9,8 @@
  */
 
 int main(void)
-{
-	char str1[] = "\"Programming is like building ";
-	
-	char str2[] = "a multilingual puzzle";
-	
-	puts(str1,str2);
+{	
+	puts("\"Programming is like building a multilingual puzzle");
 			
 	return(0);
 }
