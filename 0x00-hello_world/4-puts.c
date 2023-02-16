@@ -7,11 +7,14 @@
  *
  * Return: It returns 0 which means success
  */
+
 int main(void)
 {
-	char str1[] = "\"Programming is like building a multilingual puzzle";
+	char str1[] = "\"Programming is like building ";
 	
-	puts(str1);
+	char str2[] = "a multilingual puzzle";
+	
+	puts(str1,str2);
 			
 	return(0);
 }
