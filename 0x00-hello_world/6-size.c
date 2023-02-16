@@ -5,7 +5,7 @@
  *
  *Description: function prints size of types on stdo
  *
- * Returns: 0 = success
+ * Return: 0 = success
  */
 
 int main(void)
