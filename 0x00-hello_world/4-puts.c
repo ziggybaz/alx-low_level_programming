@@ -3,7 +3,7 @@
 /**
  * main - the function returns a character of strings.
  *
- * Description: The function receives strings and displays it to the stdo using the 'puts'.
+ * Description: function receives strings and displays it to the stdo using 'puts'.
  *
  * Return: It returns 0 which means success
  */
