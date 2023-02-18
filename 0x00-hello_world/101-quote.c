@@ -4,7 +4,7 @@
  *
  * Description: function prints output only to stderror
  *
- * Return: 1 = error/fail
+ * Return: 1 = error/fail.
  */
 
 int main(void)
