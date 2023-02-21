@@ -7,8 +7,8 @@
  * @n: type checker
  *
  * Return: 1 if n > 0 and prints +
- * 	0 if n = 0 and prints 0
- * 	-1 if n < 0 and prints -
+ *	0 if n = 0 and prints 0
+ *	-1 if n < 0 and prints -
  */
 int print_sign(int n)
 {
