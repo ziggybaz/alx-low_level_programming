@@ -6,12 +6,17 @@
  *
  * @x: integer type checker
  *
- * Return: x = final digit
+ * Return: ld = final digit
  */
 int print_last_digit(int x)
 {
+	int ld;
+
 	if (x < 0)
-		x = x * -1;
-	_putchar(x + '0');
-	return (x);
+		ld = -1 * (x % 10);
+	else
+		ld = x % 10;
+
+	_putchar(ld + '0');
+	return (ld);
 }
