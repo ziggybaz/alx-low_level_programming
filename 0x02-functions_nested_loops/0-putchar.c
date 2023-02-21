@@ -16,6 +16,6 @@ int main(void)
 	for (c = 0; c < 8; ++c)
 		_putchar(myString[c]);
 	_putchar('\n');
-	
+
 	return (0);
 }
