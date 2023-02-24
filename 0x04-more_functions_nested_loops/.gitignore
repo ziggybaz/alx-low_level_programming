@@ -4,3 +4,5 @@ main
 .gitignore
 1-isdigit
 2-mul
+3-print_numbers
+_putchar.c
