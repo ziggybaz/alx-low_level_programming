@@ -1,17 +1,18 @@
 #include "main.h"
 /**
-* _puts - tested function
+* _puts - prints char to stdo
+*
 *@str: string
-* Return: string
+*
+* Return: void
 */
 
 void _puts(char *str)
 {
 	int length;
 
-	for (length = 0 ; str[length] != '\0' ;)
+	for (length = 0 ; str[length] != '\0' ; ++length;)
 	{
-		++length;
 		_putchar(str[length]);
 	}
 	_putchar('\n');
